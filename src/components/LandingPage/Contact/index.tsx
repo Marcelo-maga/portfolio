@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
     <section className={styles.Contact}>
 
       <div className={styles.ContainerContact}>
-        <h2>Texto Otimista e lindo</h2>
+        {/* <h2>Texto Otimista e lindo</h2> */}
         <EmailQrCode 
           onClick={ () => console.log('test')}
           className={styles.QrCode}

@@ -5,11 +5,11 @@ const Projects: React.FC = () => {
   return (
     <section className={styles.Projects}>
 
-      <h1>Alguns dos meus projetos</h1>
+      {/* <h1>Alguns dos meus projetos</h1>
 
       <div className={styles.ContainerProjects}>
           <Carrossel/>
-      </div>
+      </div> */}
 
     </section>
   )
