@@ -11,11 +11,15 @@ const Contact: React.FC = () => {
     <section className={styles.Contact}>
 
       <div className={styles.ContainerContact}>
-        {/* <h2>Texto Otimista e lindo</h2> */}
+
+        <h1 className={styles.Text1}>Obrigado por chegar até aqui!</h1>
+        <h2 className={styles.Text2}>Escanei esse QrCode e me mande um email</h2>
+
         <EmailQrCode 
           onClick={ () => console.log('test')}
           className={styles.QrCode}
         />
+
       </div>
 
       <div className={styles.SocialMidias}>
