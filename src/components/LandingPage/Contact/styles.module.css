@@ -1,9 +1,8 @@
 .Contact{
   display: flex;
   flex-direction: column;
-
   justify-content: center;
-
+  padding: 40;
 }
 
 .ContainerContact {
@@ -23,8 +22,8 @@
 }
 
 .QrCode:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .SocialMidias {
@@ -34,6 +33,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  padding-bottom: 15px;
 
 }
 
