@@ -1,11 +1,11 @@
-.Projects {
+.Statistics {
   display: flex;
   flex-direction: column;
 
   align-items: center;
 }
 
-.ContainerProjects {
+.ContainerStatistics {
   display: flex;
   flex-direction: column;
 

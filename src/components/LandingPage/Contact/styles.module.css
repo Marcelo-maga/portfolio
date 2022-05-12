@@ -22,6 +22,11 @@
   height: 40%;
 }
 
+.QrCode:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 .SocialMidias {
   height: 15%;
   background-color: #171A21;

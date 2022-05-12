@@ -5,6 +5,7 @@ body {
 	border: 0;
   font-family: 'Fira Sans', sans-serif;
   user-select: none;
+  padding: 20;
 }
 
 section {
@@ -20,7 +21,7 @@ a {
 }
 
 .LandingPage {
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   overflow-y: scroll;
   height: 100vh;
 }

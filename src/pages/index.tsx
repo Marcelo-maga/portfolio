@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 // Importações das páginas
 import Home from '../components/LandingPage/Home'
 import About from '../components/LandingPage/About'
-import Projects from '../components/LandingPage/Projects'
+import Projects from '../components/LandingPage/Statistics'
 import Contact from '../components/LandingPage/Contact'
 
 const LandingPage: NextPage = (colorPrimary) => {  
